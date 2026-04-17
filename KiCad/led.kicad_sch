@@ -1,0 +1,9165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7fe640b4-23bc-43c7-a520-da0cc26acac7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_marbastlib-various:WS2812_2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812_2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812_2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812_2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812_2020_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+VSW"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+VSW"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VSW\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+VSW_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VSW_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+VSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 83.82 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00dcec8a-2cd5-4d57-9409-9ae82ee03fe5")
+	)
+	(junction
+		(at 114.3 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "015c6b65-0b00-450d-88c7-0ad3fabbf4e1")
+	)
+	(junction
+		(at 201.93 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0726ee98-3da1-44b3-a87b-423830ded5fc")
+	)
+	(junction
+		(at 205.74 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091b0adb-f984-4bad-9e00-7f13a48b53a5")
+	)
+	(junction
+		(at 83.82 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0acbdbac-6ad0-438a-afc7-27e592735e52")
+	)
+	(junction
+		(at 232.41 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e0eed66-8f02-4c92-a111-a9020db59d26")
+	)
+	(junction
+		(at 68.58 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17cb7b13-c147-4e78-aa4e-9f7169da0a9d")
+	)
+	(junction
+		(at 68.58 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1baf839f-e62d-4f97-b10c-c3f5e1e768fd")
+	)
+	(junction
+		(at 217.17 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20f3ef2b-2036-499d-b260-d668613e4dd9")
+	)
+	(junction
+		(at 217.17 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22a27661-5a64-40cb-ba30-b06726031055")
+	)
+	(junction
+		(at 68.58 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a6a600-e6ea-466a-9977-82582e2132d9")
+	)
+	(junction
+		(at 201.93 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "246d502b-21e3-413f-8de6-6689288a4cb2")
+	)
+	(junction
+		(at 201.93 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24739a7a-8c85-445f-aa1b-c40236a76555")
+	)
+	(junction
+		(at 99.06 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "273481d9-7a18-413c-a19b-7e2372088a58")
+	)
+	(junction
+		(at 53.34 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "286cacad-35e4-491e-83f9-fd4430d05bc0")
+	)
+	(junction
+		(at 247.65 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e135b5-5707-40d3-94fe-4e1df06e2d7a")
+	)
+	(junction
+		(at 201.93 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2987102e-a374-4882-9262-e678787f2d24")
+	)
+	(junction
+		(at 217.17 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b554ee6-210a-426c-a17c-80f6c4a96914")
+	)
+	(junction
+		(at 247.65 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "309d090b-0ed8-46a4-ac16-d60aaeb81f01")
+	)
+	(junction
+		(at 201.93 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37525f8d-47c6-47f3-8c68-c2d7e9797cda")
+	)
+	(junction
+		(at 201.93 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38842690-96df-47e0-984a-f1778bb768a6")
+	)
+	(junction
+		(at 53.34 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c3430db-36fd-42d7-ab01-55e04df6995c")
+	)
+	(junction
+		(at 201.93 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c7f4464-05b4-4f42-8548-099f3d1632dc")
+	)
+	(junction
+		(at 186.69 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dc462e9-36e4-490a-8fa7-2ef715c808a6")
+	)
+	(junction
+		(at 83.82 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4052cc69-2dc7-4f26-ade7-92bee48c63f9")
+	)
+	(junction
+		(at 217.17 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "412a9095-eca0-49d2-8ea8-e1b82316badb")
+	)
+	(junction
+		(at 83.82 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "422f86ce-c0d0-4d62-bdcf-628114444b00")
+	)
+	(junction
+		(at 186.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48c8faaf-9f39-42fb-86b4-bf91d232c2df")
+	)
+	(junction
+		(at 186.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f7c2f9-2f23-460b-9f1d-06059cbd8762")
+	)
+	(junction
+		(at 219.71 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c1ce50c-3fa4-4c2c-a8b2-f10788210c7c")
+	)
+	(junction
+		(at 219.71 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f007120-c8e6-4029-9826-9c93756d8f4f")
+	)
+	(junction
+		(at 232.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "502d4056-1e4b-4893-b09d-2fcaa122f827")
+	)
+	(junction
+		(at 186.69 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5807807d-42db-475e-b57d-ad64c424bd74")
+	)
+	(junction
+		(at 53.34 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59638f1d-ce79-4a5b-8be7-a001d6f08457")
+	)
+	(junction
+		(at 99.06 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5999c936-1044-49a6-b487-86f40016f2e4")
+	)
+	(junction
+		(at 247.65 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5defacc2-67ab-4f11-a365-f151f8c5e21f")
+	)
+	(junction
+		(at 68.58 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ee76f8b-95f6-4bab-a555-2f30b819067d")
+	)
+	(junction
+		(at 247.65 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684b33af-8730-45dc-9a24-e38c4df70acf")
+	)
+	(junction
+		(at 247.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6911c923-8cc5-4916-81d6-aa81f3db1dac")
+	)
+	(junction
+		(at 217.17 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e64eaab-0c31-4043-93e9-4dbb1db50337")
+	)
+	(junction
+		(at 201.93 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "724140d2-6f44-42db-84db-5d0b963eb744")
+	)
+	(junction
+		(at 68.58 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7859b364-a504-4495-bc67-ca3174ddc2b8")
+	)
+	(junction
+		(at 232.41 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bf77cc5-8eb9-49ae-810b-312422c6bafa")
+	)
+	(junction
+		(at 83.82 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ed5841d-8f49-402f-873f-38c86942cecc")
+	)
+	(junction
+		(at 53.34 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ef2e773-a6aa-442c-b649-f4401f7c4fa1")
+	)
+	(junction
+		(at 99.06 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87bb967d-af07-4491-96fc-02b7a9491668")
+	)
+	(junction
+		(at 232.41 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f15ad9-5954-414e-830b-6883bba5b1c4")
+	)
+	(junction
+		(at 232.41 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8821b2d4-fc17-4da8-ad0c-ad5908a070f1")
+	)
+	(junction
+		(at 53.34 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "898622d8-766f-4358-b130-54606a3d1765")
+	)
+	(junction
+		(at 83.82 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9001b7a6-a475-4633-aec0-472e1be86f4d")
+	)
+	(junction
+		(at 232.41 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90205889-00d1-4495-ba52-ec19bbc79076")
+	)
+	(junction
+		(at 99.06 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "916cbf13-7d7e-4d92-bbc7-dbd6668c5116")
+	)
+	(junction
+		(at 68.58 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92132fb6-32b5-46b8-ad09-9c7ac9681525")
+	)
+	(junction
+		(at 114.3 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92ff775c-2281-45a2-8ed4-0eac5f30d540")
+	)
+	(junction
+		(at 232.41 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9424a2a4-d72e-44d6-905c-9de0a357fe65")
+	)
+	(junction
+		(at 219.71 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "943134fb-ee6a-403a-866a-2f765c4f4cc2")
+	)
+	(junction
+		(at 83.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c523f1-aef9-438c-b74f-92ee0b8187db")
+	)
+	(junction
+		(at 68.58 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99461877-7c52-4297-88b2-5b50626809de")
+	)
+	(junction
+		(at 53.34 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d12fddb-e5e9-4b82-bc4e-c44fa6cce34e")
+	)
+	(junction
+		(at 99.06 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03d6b01-1f08-428a-b464-0a396b797af2")
+	)
+	(junction
+		(at 68.58 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4d83365-462c-4e52-96c1-20698cf56ec3")
+	)
+	(junction
+		(at 68.58 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b8cbc4-f91e-434f-8c10-c6ebdc0e658f")
+	)
+	(junction
+		(at 217.17 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7fdd908-898d-47be-92f9-5b1aff3b25ed")
+	)
+	(junction
+		(at 53.34 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac4f279e-d35c-4cac-aefe-292a983543af")
+	)
+	(junction
+		(at 217.17 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adb736a8-9ea4-498a-8302-35f32d67f3b8")
+	)
+	(junction
+		(at 232.41 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add9c3a2-63fa-4df3-95dc-614bda5da568")
+	)
+	(junction
+		(at 83.82 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afdbc453-b9a3-4cb8-8750-8cf2775a4867")
+	)
+	(junction
+		(at 114.3 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b40982aa-fc6e-49fd-8038-a776120d6f24")
+	)
+	(junction
+		(at 83.82 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b46cbf31-1e3e-4284-982b-63b510ca0bca")
+	)
+	(junction
+		(at 186.69 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b93e7c00-d9bd-4e5b-8d4a-21fc9d1a9dc7")
+	)
+	(junction
+		(at 201.93 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa87eda-20fa-4555-a42f-6d570b830fda")
+	)
+	(junction
+		(at 186.69 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3cc72e5-3701-49ed-945e-709c623d8f85")
+	)
+	(junction
+		(at 99.06 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6bb16ff-b481-422f-a6b4-c22f57ba1286")
+	)
+	(junction
+		(at 186.69 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8e8083f-3132-4e26-b29a-959c6b5e216f")
+	)
+	(junction
+		(at 186.69 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbbb2bf7-dfdc-47a9-b434-b64754bf5c9e")
+	)
+	(junction
+		(at 217.17 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc38ebc0-8b7d-43f3-a925-8aceacd4cf8f")
+	)
+	(junction
+		(at 114.3 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd7010d-6614-4e89-8e01-e311d7626eb1")
+	)
+	(junction
+		(at 99.06 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc0cead-113d-405b-83b8-e7e323f3a2e1")
+	)
+	(junction
+		(at 114.3 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cea659c4-ce38-4538-9b24-3526200f6aaf")
+	)
+	(junction
+		(at 186.69 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceeea746-9cd6-4a43-811f-77157ac3472c")
+	)
+	(junction
+		(at 99.06 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0047b01-67e3-4882-bd1e-37719f25ef3b")
+	)
+	(junction
+		(at 53.34 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d04ca9da-7692-4913-836f-b9c2f2d32259")
+	)
+	(junction
+		(at 68.58 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1b54e4f-4c9c-43e4-a7fa-801a7f365114")
+	)
+	(junction
+		(at 232.41 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2220008-23c0-4386-b420-c23881bc029e")
+	)
+	(junction
+		(at 53.34 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d460c756-1ce8-4e84-b07d-2e57e2a2c939")
+	)
+	(junction
+		(at 186.69 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8845cc7-99d6-443c-be32-2b76b0803701")
+	)
+	(junction
+		(at 99.06 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4deb04b-7155-426a-90fa-f1962cfe2ba6")
+	)
+	(junction
+		(at 201.93 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9910d69-fe74-4e20-9fb5-b04c2b46195d")
+	)
+	(junction
+		(at 99.06 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9974b1a-1d33-4d75-8785-0372b0dadef7")
+	)
+	(junction
+		(at 114.3 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed3ad13-5498-4491-a171-f7e648e42fa3")
+	)
+	(junction
+		(at 217.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45812c1-07f7-4092-b8dc-f7dd1e32df16")
+	)
+	(junction
+		(at 83.82 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45d991a-b955-4065-b490-813c1af6f55e")
+	)
+	(junction
+		(at 232.41 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbdb189a-bd48-4b30-b48e-a3de96d7040a")
+	)
+	(junction
+		(at 217.17 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2170bb-6446-42fe-b1b4-6132c4bb62e1")
+	)
+	(junction
+		(at 53.34 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe07122a-cf48-4567-ae8c-1ddfb4e5f422")
+	)
+	(junction
+		(at 247.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feeea60f-d06e-474d-af45-671e65e3a3ab")
+	)
+	(no_connect
+		(at 121.92 180.34)
+		(uuid "be823efe-c213-4900-b850-2ebf8cea7188")
+	)
+	(wire
+		(pts
+			(xy 217.17 74.93) (xy 232.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d02939-11a6-4672-b4fc-9b9f2835b84e")
+	)
+	(wire
+		(pts
+			(xy 53.34 161.29) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0445e243-6d6e-4d6f-9160-973cf8a76c6e")
+	)
+	(wire
+		(pts
+			(xy 68.58 92.71) (xy 83.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044c70c6-8941-4c5c-a197-d9df02b4d859")
+	)
+	(wire
+		(pts
+			(xy 83.82 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ff3d4a-3636-4f97-ab27-2044ad5a961c")
+	)
+	(wire
+		(pts
+			(xy 232.41 138.43) (xy 247.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f5697b-4605-4840-a207-3a6f8dd9b4a6")
+	)
+	(wire
+		(pts
+			(xy 45.72 167.64) (xy 45.72 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b75d15-46f7-44dd-8f91-8e45981a5a44")
+	)
+	(wire
+		(pts
+			(xy 121.92 153.67) (xy 121.92 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f38f7b-e44c-4af2-9c6c-d073d1d3cea6")
+	)
+	(wire
+		(pts
+			(xy 186.69 110.49) (xy 201.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097bd036-27d1-4fe1-8cde-fce6afa75e4d")
+	)
+	(wire
+		(pts
+			(xy 205.74 46.99) (xy 212.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0994206c-cd65-4445-9f59-bf658f228071")
+	)
+	(wire
+		(pts
+			(xy 99.06 146.05) (xy 114.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c318a2a-7814-4e1c-a887-6b6bbacd8c3d")
+	)
+	(wire
+		(pts
+			(xy 217.17 105.41) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca9c32b-6b3f-4277-b49a-fc13e4a0ef92")
+	)
+	(wire
+		(pts
+			(xy 83.82 134.62) (xy 99.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e843925-c397-4973-96ad-e3619af93a14")
+	)
+	(wire
+		(pts
+			(xy 53.34 134.62) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd3c28f-3983-4269-a93c-1eb83d57bfe6")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 83.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13653104-5398-4108-bc52-7bb129a364f3")
+	)
+	(wire
+		(pts
+			(xy 219.71 39.37) (xy 219.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1401e040-0cff-484a-8a3f-68054ffea77e")
+	)
+	(wire
+		(pts
+			(xy 204.47 46.99) (xy 205.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d8987b-a878-4c91-bb56-c14a6970ac13")
+	)
+	(wire
+		(pts
+			(xy 137.16 100.33) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1980143d-3145-4a8c-bf12-7706725e0a0c")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e944e7a-44ee-46fe-8a8f-d32128557ef7")
+	)
+	(wire
+		(pts
+			(xy 179.07 90.17) (xy 186.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eff8e14-67f0-41b2-909c-356ea131287b")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 45.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0cef3b-8e21-4e62-958e-e53393e4a73a")
+	)
+	(wire
+		(pts
+			(xy 179.07 138.43) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21590fe5-de75-4942-ba39-789f539cbdb1")
+	)
+	(wire
+		(pts
+			(xy 179.07 121.92) (xy 186.69 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e01a05-5faf-4391-9eaa-3fa957bb1b93")
+	)
+	(wire
+		(pts
+			(xy 137.16 140.97) (xy 45.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224817e2-77c8-4699-bfa2-b6303e7c4b26")
+	)
+	(wire
+		(pts
+			(xy 68.58 161.29) (xy 83.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230ab409-89e3-4c33-abd3-98313e94d0c1")
+	)
+	(wire
+		(pts
+			(xy 232.41 74.93) (xy 247.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24eeaf41-ed98-44f8-b8fa-5fe55d5d91a9")
+	)
+	(wire
+		(pts
+			(xy 45.72 114.3) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2862d8e6-4f90-4dfe-a92c-250afe3874d6")
+	)
+	(wire
+		(pts
+			(xy 83.82 92.71) (xy 99.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29478d36-f87c-44e3-b335-cdb45fa9e211")
+	)
+	(wire
+		(pts
+			(xy 217.17 143.51) (xy 232.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b26cf2e-f3e1-403b-8fd7-06d6ca65887c")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 219.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd3ee21-2b98-4a12-9041-da847e506968")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da70459-9284-49d1-bcc1-dc9e683b9193")
+	)
+	(wire
+		(pts
+			(xy 232.41 110.49) (xy 247.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f11b10b-6c88-48dc-b72b-accac4e0e3e5")
+	)
+	(wire
+		(pts
+			(xy 83.82 187.96) (xy 99.06 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30540c80-af7d-46db-9d79-1f85cbaa5ca0")
+	)
+	(wire
+		(pts
+			(xy 99.06 119.38) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344e0efb-8625-41d6-92ff-6e118fa10c39")
+	)
+	(wire
+		(pts
+			(xy 217.17 138.43) (xy 232.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353829ed-cd60-44d5-9c14-c890aff474d5")
+	)
+	(wire
+		(pts
+			(xy 227.33 44.45) (xy 229.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368d6535-867c-43e5-a0b0-9229bed9cb09")
+	)
+	(wire
+		(pts
+			(xy 232.41 143.51) (xy 247.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f20f8d-44d6-4062-ae16-50a9b589319f")
+	)
+	(wire
+		(pts
+			(xy 68.58 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf74aad-8c75-4718-be0c-960c3405dd1c")
+	)
+	(wire
+		(pts
+			(xy 137.16 114.3) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408b847e-d9e1-46c1-a619-d17af36ef320")
+	)
+	(wire
+		(pts
+			(xy 217.17 110.49) (xy 232.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452b84ab-a1a1-4aff-9f9a-3b3deff61222")
+	)
+	(wire
+		(pts
+			(xy 45.72 66.04) (xy 53.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ce54f6-20de-41e1-a664-1408bd15943e")
+	)
+	(wire
+		(pts
+			(xy 53.34 119.38) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478d0470-e1ef-4dbd-9ca2-b9b8890f9c04")
+	)
+	(wire
+		(pts
+			(xy 201.93 110.49) (xy 217.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a8ca04-2432-4ba7-9b65-bc345c580bea")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 53.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c7f307-ee01-4602-a46c-98226d05ef56")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d5adac-ade3-498c-9375-610f28e09575")
+	)
+	(wire
+		(pts
+			(xy 232.41 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ebec99-c0ad-489d-9e68-b835deadce84")
+	)
+	(wire
+		(pts
+			(xy 186.69 143.51) (xy 201.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51400f2e-4167-4f2a-b157-8850c5a42a6c")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 68.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2900ee-6d50-4653-92e2-25c7549db5d9")
+	)
+	(wire
+		(pts
+			(xy 68.58 172.72) (xy 83.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6398924f-319b-4aca-a809-5088a42ecfc9")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 186.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d553cb-bce3-4fa7-a728-5922dacfed98")
+	)
+	(wire
+		(pts
+			(xy 247.65 95.25) (xy 262.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696a1ea1-8979-4b8a-9153-ee326b8f2e40")
+	)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70448be3-bf45-4424-80d5-ab9bf1624bd8")
+	)
+	(wire
+		(pts
+			(xy 201.93 121.92) (xy 217.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719f6f70-38f7-40c4-91b6-c3ab5f1eeca8")
+	)
+	(wire
+		(pts
+			(xy 217.17 80.01) (xy 232.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a6d39e-0781-4143-80a1-524704af3c89")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d12a2f-a93a-4b76-999d-eb6e14e1dbd7")
+	)
+	(wire
+		(pts
+			(xy 219.71 34.29) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773b50ac-f29d-4632-9b48-996ddfe7c91c")
+	)
+	(wire
+		(pts
+			(xy 53.34 146.05) (xy 68.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3b5a3b-9feb-4989-a68c-c427483284e1")
+	)
+	(wire
+		(pts
+			(xy 232.41 121.92) (xy 247.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfba802-babf-44e9-a9d0-98de48bcb89a")
+	)
+	(wire
+		(pts
+			(xy 217.17 121.92) (xy 232.41 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6ec19b-94e5-4ab2-97d3-7dace8a8948b")
+	)
+	(wire
+		(pts
+			(xy 201.93 90.17) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8d94a4-10a3-4e0b-b381-680683e94dcd")
+	)
+	(wire
+		(pts
+			(xy 247.65 105.41) (xy 262.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe46603-fe16-4b6c-b9c4-1e0b34d17689")
+	)
+	(wire
+		(pts
+			(xy 39.37 172.72) (xy 53.34 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816b163e-05fb-4aff-ad03-d8472e92084e")
+	)
+	(wire
+		(pts
+			(xy 68.58 187.96) (xy 83.82 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891f1779-c0f1-4860-9d1f-79bc4cf1fc87")
+	)
+	(wire
+		(pts
+			(xy 186.69 127) (xy 201.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b75f361-4a08-4f97-93ba-2c14f0ed4325")
+	)
+	(wire
+		(pts
+			(xy 186.69 80.01) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db83d77-1b4a-4b95-8edd-559bfb240d64")
+	)
+	(wire
+		(pts
+			(xy 201.93 105.41) (xy 217.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1153d4-948c-4616-9c28-ba2d03fc6df3")
+	)
+	(wire
+		(pts
+			(xy 186.69 95.25) (xy 201.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f159a1-6658-45e4-9e72-cd8f3ba02c67")
+	)
+	(wire
+		(pts
+			(xy 201.93 80.01) (xy 217.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91658291-b514-4f66-82f4-9f9ddb3826fb")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929e4670-cf12-4477-9da2-43df581d5309")
+	)
+	(wire
+		(pts
+			(xy 201.93 138.43) (xy 217.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c60718-10e9-4826-b041-cd37d169538f")
+	)
+	(wire
+		(pts
+			(xy 217.17 127) (xy 232.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9530481a-b1c6-498a-aef3-dab4f8a0f0fb")
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954b987e-54cd-458c-99cd-67f755fca540")
+	)
+	(wire
+		(pts
+			(xy 53.34 81.28) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986c7734-0869-49d5-b9e8-d06bfcdff1b3")
+	)
+	(wire
+		(pts
+			(xy 232.41 80.01) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7871da-e269-4d18-a6ab-fffd4896a5d5")
+	)
+	(wire
+		(pts
+			(xy 247.65 74.93) (xy 262.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4e6734-9afd-4769-aab3-60c3f1b53bd2")
+	)
+	(wire
+		(pts
+			(xy 247.65 80.01) (xy 262.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbcfca9-ad21-4c65-94b6-f4ff5a8dd21e")
+	)
+	(wire
+		(pts
+			(xy 137.16 127) (xy 137.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e407735-1ee5-4826-9306-53e4b76f97e1")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f63faf4-5f48-4d8a-9544-6002eae684f2")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27d7ce4-1b08-4f9d-8d3c-350acb9bba9f")
+	)
+	(wire
+		(pts
+			(xy 247.65 110.49) (xy 262.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4aed74f-3090-4fed-b81f-b6d2bbf8bb73")
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 114.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6eb4ba7-bc01-4ccf-9771-71eed618656f")
+	)
+	(wire
+		(pts
+			(xy 247.65 90.17) (xy 262.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7948fa2-479f-497f-9f3a-fa6b9e975cdb")
+	)
+	(wire
+		(pts
+			(xy 45.72 140.97) (xy 45.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cfb3ee-d577-45d3-b8b9-8e6cbe17a7d9")
+	)
+	(wire
+		(pts
+			(xy 99.06 187.96) (xy 114.3 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6374c8-c336-4f29-ba2f-0cb9f392e921")
+	)
+	(wire
+		(pts
+			(xy 121.92 167.64) (xy 45.72 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2b2e0a-f132-4d81-8906-3128dc35006b")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5daeb7-20e3-4cf2-8f3f-42b2bff3b953")
+	)
+	(wire
+		(pts
+			(xy 186.69 90.17) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb289fb-7891-4bec-8e9f-7e1034870c9b")
+	)
+	(wire
+		(pts
+			(xy 83.82 161.29) (xy 99.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed627ae-eb79-4f12-972d-623e96e02875")
+	)
+	(wire
+		(pts
+			(xy 99.06 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09130ac-f27e-48d3-abab-87a2d400afef")
+	)
+	(wire
+		(pts
+			(xy 201.93 95.25) (xy 217.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a670d3-7ad1-4b60-930b-9e5b573700c9")
+	)
+	(wire
+		(pts
+			(xy 83.82 172.72) (xy 99.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d6cb77-c8cc-4070-ac4d-25cbec29c3ff")
+	)
+	(wire
+		(pts
+			(xy 201.93 74.93) (xy 217.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ce506b-2395-45a6-bdaa-36d4bec2f15a")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 99.06 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71551f0-6a35-4aef-a31f-e8816cd829df")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ffb93a-5d48-4e23-b8ec-3d2e6dc28e4d")
+	)
+	(wire
+		(pts
+			(xy 68.58 146.05) (xy 83.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf6046f-6cdf-4583-8b44-5705d0688a89")
+	)
+	(wire
+		(pts
+			(xy 83.82 119.38) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca1ce8d-a010-4717-9ac0-e47a99f1875f")
+	)
+	(wire
+		(pts
+			(xy 39.37 146.05) (xy 53.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb8cb5e-e4c0-4d44-a29f-91850557569f")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 232.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bded8650-0793-465e-9f5f-f84856d5de11")
+	)
+	(wire
+		(pts
+			(xy 201.93 127) (xy 217.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdc47f5-2490-49c3-9f5a-a19ef3d88ecb")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2af97b5-9738-49af-8cae-e9ecd0d1b7b1")
+	)
+	(wire
+		(pts
+			(xy 186.69 74.93) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c884aad4-a71a-4dac-88c5-91782f4b64b0")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9117dc0-87e5-4440-9c4f-31f89b723a2f")
+	)
+	(wire
+		(pts
+			(xy 53.34 187.96) (xy 68.58 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca583246-d58c-4cf1-ac99-34bd1f43a4a1")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb402212-3d4f-4ebe-8c5d-517abaf0e6ae")
+	)
+	(wire
+		(pts
+			(xy 186.69 138.43) (xy 201.93 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd26ef1f-dc23-4a9d-ab83-b4e5f374291d")
+	)
+	(wire
+		(pts
+			(xy 232.41 127) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cbc95e-5c8c-4b70-8c75-6fdfcf9d0ee7")
+	)
+	(wire
+		(pts
+			(xy 186.69 121.92) (xy 201.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f026eb-81df-41ae-8feb-c6754955fd0f")
+	)
+	(wire
+		(pts
+			(xy 99.06 172.72) (xy 114.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b7bea0-f9b0-47f7-95e1-e8e2391b515a")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2b4d3f-b1f0-469d-9ead-f5c9d20e2922")
+	)
+	(wire
+		(pts
+			(xy 83.82 146.05) (xy 99.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc72eeb-ce29-4b84-a7cf-95e863f8dbee")
+	)
+	(wire
+		(pts
+			(xy 179.07 105.41) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e4613d-7dab-49cd-bf3f-f347b3302338")
+	)
+	(wire
+		(pts
+			(xy 232.41 105.41) (xy 247.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2566bb-e784-4289-ae06-a15da0d4abe4")
+	)
+	(wire
+		(pts
+			(xy 53.34 107.95) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f528e2ca-06d7-45f6-a8e3-82107ce2fa00")
+	)
+	(wire
+		(pts
+			(xy 53.34 172.72) (xy 68.58 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9314bbe-0aeb-4b5a-9702-ebcca6353dc8")
+	)
+	(wire
+		(pts
+			(xy 39.37 119.38) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab77fb3-d88b-4451-90e8-55fd7c861a9a")
+	)
+	(wire
+		(pts
+			(xy 83.82 66.04) (xy 99.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc700902-41f5-4f40-b78f-2fc77cf044a6")
+	)
+	(wire
+		(pts
+			(xy 68.58 66.04) (xy 83.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcafda04-9607-4b91-8aa7-a09d147df757")
+	)
+	(wire
+		(pts
+			(xy 45.72 86.36) (xy 45.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd44f45d-6a7a-4927-bac5-dfb44bfdbe0c")
+	)
+	(wire
+		(pts
+			(xy 232.41 90.17) (xy 247.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5cc3a3-81f6-4c81-b7ba-9ed6fc0dae4a")
+	)
+	(wire
+		(pts
+			(xy 201.93 143.51) (xy 217.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febf24b6-1791-462a-8cac-d89ff81fffd4")
+	)
+	(wire
+		(pts
+			(xy 217.17 95.25) (xy 232.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa7746c-6135-44bf-93a3-6c161cad4ea2")
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 179.07 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b387b4f-66ca-46cf-934a-65bf500873c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0974 121.8406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 39.37 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cc7a61f-a661-419f-a86c-a22194b5be74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.8253 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 179.07 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "383de1e7-80d8-493a-a6cb-da5a9f4e6410")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0974 90.0906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 39.37 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4010bbbb-911b-404f-8330-70ca271d2fe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.8253 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_LV"
+		(shape input)
+		(at 45.72 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46fccde8-f51b-4330-943f-1ee0142c6c76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 179.07 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53ba3613-ed2f-4a0e-9041-a07398abbf9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0974 74.8506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 45.72 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "612494ed-e7eb-4645-be0d-e4689339132a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.1753 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 179.07 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b64bf6d-c4f8-4bf3-ba47-eb3ffb34cb3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0974 105.3306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_EN"
+		(shape input)
+		(at 199.39 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9450e1be-2d50-4722-938a-6918046a32c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.9293 46.9106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape output)
+		(at 229.87 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97dea7df-196e-48fe-87f5-eda248d8f6a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.8426 44.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 179.07 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a74bf7f3-bb4f-4e9a-b8b5-7cc4739d1d07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0974 138.3506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 39.37 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc734c95-42c5-4609-a4b1-10197a6209db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.8253 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_PWR"
+		(shape input)
+		(at 39.37 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdb72755-d12d-441b-8aeb-9c536c1145c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.8253 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ca2116-bcbd-46f5-a868-b42d4428a957")
+		(property "Reference" "C55"
+			(at 198.755 139.6935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 198.755 142.2335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf9a667-1f1e-47af-af39-25814252c697")
+		)
+		(pin "2"
+			(uuid "6419f131-1ef6-48f3-9d1c-7a9030d966af")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0654a418-ea57-49bc-b718-5e33fc6c2be8")
+		(property "Reference" "C31"
+			(at 183.515 76.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.515 78.7335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaa08399-feeb-4d4b-8093-100fff00c30d")
+		)
+		(pin "2"
+			(uuid "b8cea985-e1d6-40a0-b823-ed0db2a37939")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "067399ca-d061-42d2-aeff-b3ffb4f69ef0")
+		(property "Reference" "C50"
+			(at 198.755 123.1835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 198.755 125.7235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035bb3cf-fe92-4be0-9144-03723767ad87")
+		)
+		(pin "2"
+			(uuid "34cf3071-c0fc-443e-9cd2-0dadeda60108")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "072c3333-8e69-49c6-b312-24e21260588b")
+		(property "Reference" "C36"
+			(at 259.715 76.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 259.715 78.7335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 262.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 262.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 262.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7784888b-1790-437d-85c7-e6bb27ab6e19")
+		)
+		(pin "2"
+			(uuid "4a52539f-ad34-43ab-b8a5-664e11bb5a2f")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 114.3 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a132d4e-e9a6-4e98-b82f-e48697e5be6f")
+		(property "Reference" "LED47"
+			(at 114.3 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 115.57 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 115.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 116.84 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98cdda3-7847-479d-a8ac-95a0244f233f")
+		)
+		(pin "2"
+			(uuid "367983dc-0aea-4a6e-8310-e11b34471b2a")
+		)
+		(pin "3"
+			(uuid "7cb43002-0d4d-4f31-9b52-ec4c0ebde995")
+		)
+		(pin "4"
+			(uuid "174b117d-1e8e-4114-b080-6ec4e921cbe5")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 129.54 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fddc50f-052a-41d3-bad0-3f709daa63b0")
+		(property "Reference" "LED48"
+			(at 129.54 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 130.81 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 132.08 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6078830f-2c38-4a1e-b887-c706dfae7672")
+		)
+		(pin "2"
+			(uuid "7ed00ff4-ce42-46d2-9ca7-ebf7aa301176")
+		)
+		(pin "3"
+			(uuid "9aaaa1f9-6750-4fe2-96f7-155fafad49af")
+		)
+		(pin "4"
+			(uuid "ec56e719-3fb5-47a2-b768-b8227ca9fb27")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 99.06 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10eef665-f665-4638-b0a9-3d1b34e66fcb")
+		(property "Reference" "LED34"
+			(at 99.06 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 100.33 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 101.6 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0e463ba-a02e-4eeb-9942-66bef1376a81")
+		)
+		(pin "2"
+			(uuid "7376eee3-dc0c-4689-bdb3-4ca42aae27bd")
+		)
+		(pin "3"
+			(uuid "84fea650-467b-4cc0-9486-ec0aad2ffdfd")
+		)
+		(pin "4"
+			(uuid "1ddc77c2-3af9-4f42-ba7f-fe73df014822")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 53.34 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13aeaabc-6d19-436d-83aa-63c3d373d0f0")
+		(property "Reference" "LED49"
+			(at 53.34 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 54.61 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 54.61 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 55.88 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "110ed8ba-b4d5-4d78-88c3-fddaaa6d3d54")
+		)
+		(pin "2"
+			(uuid "3ad94d39-70ad-4e57-8173-2b38c27b1764")
+		)
+		(pin "3"
+			(uuid "cd386cbc-e0a5-45da-abab-49f490409953")
+		)
+		(pin "4"
+			(uuid "80b32c61-19b0-4b0a-9d3f-7447fc4acc4b")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 217.17 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20fa1515-5f2f-4fda-aecb-aa43b16b7cf8")
+		(property "Reference" "Q31"
+			(at 223.52 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 223.52 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 222.25 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea3615e-7a8b-4b85-8c61-36202dac570a")
+		)
+		(pin "2"
+			(uuid "3f40fe4f-fb6c-481c-a8bf-8a1ba71cd08c")
+		)
+		(pin "3"
+			(uuid "b19e5689-0bf8-4386-ab0c-8748eb4b983b")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "Q31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 99.06 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "212de977-ed50-456c-b913-0e09bdaf1810")
+		(property "Reference" "LED46"
+			(at 99.06 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 100.33 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 101.6 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a36fb46-d45b-4dde-add9-4bb03cb04b83")
+		)
+		(pin "2"
+			(uuid "32cdb11b-c4fb-42e2-87d3-aaef67e3fa40")
+		)
+		(pin "3"
+			(uuid "cf31bacb-b0ae-4ed3-8b8a-14b24f593d5f")
+		)
+		(pin "4"
+			(uuid "5447ed4e-0fda-4b7e-b93f-079f8d525fa9")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 83.82 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21c45ac3-94a7-41d0-9b39-b6010d217731")
+		(property "Reference" "LED39"
+			(at 83.82 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 85.09 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 86.36 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f284191b-56ea-4a21-97f4-893ac864c9cf")
+		)
+		(pin "2"
+			(uuid "4332279a-18ae-447c-9dd8-554166f724a6")
+		)
+		(pin "3"
+			(uuid "d26b942d-dad8-4435-b9dd-3c1d19b84d11")
+		)
+		(pin "4"
+			(uuid "75babcee-54c7-4450-8c76-81176d96f866")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 68.58 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22606d00-efd4-4556-b11c-44ee1a774072")
+		(property "Reference" "LED44"
+			(at 68.58 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 69.85 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 71.12 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fbbc860-d119-4060-844f-6e24bfaf5255")
+		)
+		(pin "2"
+			(uuid "b98b962b-c4b3-48ae-bf04-f5c0d1b69cbb")
+		)
+		(pin "3"
+			(uuid "21b408b2-2265-477a-9674-70c9cd6fe9ea")
+		)
+		(pin "4"
+			(uuid "79829872-5120-4569-884c-9e25dd5ee443")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25b73219-a7e4-4e61-bb88-242ce163e947")
+		(property "Reference" "#PWR036"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a6de795-a9ab-4587-9776-35a2a8856cfe")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 224.79 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28b9cf29-78c4-4bb6-bb8a-a8797c64d53f")
+		(property "Reference" "Q32"
+			(at 230.505 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 230.505 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 229.87 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 224.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb792e99-6397-4bb3-bb70-de04afd50114")
+		)
+		(pin "2"
+			(uuid "10f8cd11-e91b-41c0-b695-24cc52723080")
+		)
+		(pin "3"
+			(uuid "d375eb33-dfe6-43eb-abdf-119e611752ee")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "Q32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 53.34 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28ec977c-6a94-4c93-8720-b8b08fc1b444")
+		(property "Reference" "LED54"
+			(at 53.34 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 54.61 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 54.61 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 55.88 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47590684-356f-499e-9a38-6bf3a0044777")
+		)
+		(pin "2"
+			(uuid "4d2c3a62-b364-4e2c-8608-416dee9fac30")
+		)
+		(pin "3"
+			(uuid "69a9422b-12fa-4c57-8dd2-d066452550d7")
+		)
+		(pin "4"
+			(uuid "1ce348a7-9ce6-483d-a16c-76c8542847fc")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 114.3 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30bcb93f-b1ed-4a1c-ada7-63456ca4ea6c")
+		(property "Reference" "LED53"
+			(at 114.3 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 115.57 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 116.84 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59222bc7-fa5b-4237-bd96-c6bc500e6759")
+		)
+		(pin "2"
+			(uuid "6f17b2f9-548b-40db-beba-c31a06896cc5")
+		)
+		(pin "3"
+			(uuid "77e11950-4343-45a2-a1ef-4bf58aaafd32")
+		)
+		(pin "4"
+			(uuid "90a60caa-7b85-4ac1-ac9b-6de69dbe3a00")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 247.65 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33763832-7b85-4f8f-9099-0b91b424e30a")
+		(property "Reference" "C53"
+			(at 244.475 123.1835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 244.475 125.7235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 247.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55e1e221-ef70-40b4-872c-391370702289")
+		)
+		(pin "2"
+			(uuid "d1400399-0510-443a-a12e-b78387ca6b76")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 99.06 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33b089e8-b7ea-4005-a1cb-cd435f023c1a")
+		(property "Reference" "LED40"
+			(at 99.06 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 100.33 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 101.6 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85ea9a90-6243-4f5b-bab3-3984fd8a2391")
+		)
+		(pin "2"
+			(uuid "f776c8e1-3173-45f7-9a6f-94f4015d4b51")
+		)
+		(pin "3"
+			(uuid "007822d6-0b68-4145-8db4-6c315acb2f5c")
+		)
+		(pin "4"
+			(uuid "c3f062ed-ebd1-49e5-82e0-9c74c2f44bfa")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34ff242e-c069-4511-a9f4-6dcaaecd8ecd")
+		(property "Reference" "C48"
+			(at 259.715 106.6735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 259.715 109.2135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 262.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 262.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 262.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c82333c3-1a35-46c1-a69a-6831755b00ce")
+		)
+		(pin "2"
+			(uuid "fc7bf49c-0921-4592-8652-66ff7728983e")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35a6f782-db1f-4012-9327-01f8768e8372")
+		(property "Reference" "#PWR075"
+			(at 53.34 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a628c7c-ed0f-41be-b2d9-5e142b716121")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 99.06 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "366f5fe4-36ee-45a6-b4e9-46126fe3ddfb")
+		(property "Reference" "LED57"
+			(at 99.06 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 100.33 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 100.33 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 101.6 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb2b0be3-52b6-4ced-9cf3-1886d286701f")
+		)
+		(pin "2"
+			(uuid "b5d2a3b1-c397-4ac9-9375-2516598eeb7c")
+		)
+		(pin "3"
+			(uuid "af11dba0-59fa-4ee2-9225-f6ff74597ba7")
+		)
+		(pin "4"
+			(uuid "d1846eb3-7be1-4918-ab19-0dc795994b55")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 68.58 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cf496cd-a50f-42b8-9e39-089945e1052f")
+		(property "Reference" "LED50"
+			(at 68.58 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 69.85 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 71.12 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65030a8f-c683-4f42-aedc-77303b168871")
+		)
+		(pin "2"
+			(uuid "533c7730-3483-490a-8e25-a83b39193cb5")
+		)
+		(pin "3"
+			(uuid "0abb4231-a45b-4ad4-8a9c-27602c731dc6")
+		)
+		(pin "4"
+			(uuid "ae7165bb-e6cc-4193-bded-112af1bbae62")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 114.3 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f3f1f5b-b955-4a82-96e6-f33538a08c6b")
+		(property "Reference" "LED41"
+			(at 114.3 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 115.57 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 115.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 116.84 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bfff05d-f3fd-4b06-9b6e-0311f4b79199")
+		)
+		(pin "2"
+			(uuid "e216d0af-950d-4a36-a28c-ab9c9b09844d")
+		)
+		(pin "3"
+			(uuid "53a7a548-e5a1-4955-a41b-5d5d79615bee")
+		)
+		(pin "4"
+			(uuid "93f819f2-6c2e-4813-bc66-c12b37381a3c")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 114.3 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "400e1650-11a2-4745-98b7-73fba524a59a")
+		(property "Reference" "LED58"
+			(at 114.3 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 115.57 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 115.57 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 116.84 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a3f0d81-8a3d-42b7-91f2-db1fa43c6c2c")
+		)
+		(pin "2"
+			(uuid "7e2ebda7-8e87-4ad1-9618-5a793e56b142")
+		)
+		(pin "3"
+			(uuid "1529e270-6ba1-4e03-8b8b-c799720c505c")
+		)
+		(pin "4"
+			(uuid "0eff2dd4-a52a-420e-aa2a-b1ce3e95baa7")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 247.65 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40cdc5bc-ca15-428c-8c03-3e3aa6c16446")
+		(property "Reference" "C35"
+			(at 244.475 76.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 244.475 78.7335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be189545-6529-4595-a9e6-4d4a579fd2f6")
+		)
+		(pin "2"
+			(uuid "c3d8f77c-1b37-47af-ac27-c5206fe59647")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47225a7f-4b54-4e14-ab24-4b990b518e44")
+		(property "Reference" "C46"
+			(at 229.235 106.6735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.235 109.2135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 232.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b046584e-cb09-46e9-8427-73466a1a7d4c")
+		)
+		(pin "2"
+			(uuid "ca21f0bc-0970-45f0-9050-c2e99d33ee1a")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4767f89d-2814-4047-8121-7abc9edd1aac")
+		(property "Reference" "C37"
+			(at 183.515 91.4335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.515 93.9735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43eb48a6-7edc-4d9b-8009-6396b399c19c")
+		)
+		(pin "2"
+			(uuid "c6a36b55-33a5-470f-96c8-e185f1f5c54b")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 247.65 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a3a133d-a7d0-40b2-ae85-eaa945b3d202")
+		(property "Reference" "C58"
+			(at 244.475 139.6935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 244.475 142.2335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 247.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e360c28-d87d-48ae-bc4c-82205c9b1663")
+		)
+		(pin "2"
+			(uuid "6fdd545b-1129-4e2f-9e14-5038b5f645b6")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd57888-d9ea-4b39-90ab-21c14a4fcf5a")
+		(property "Reference" "C43"
+			(at 183.515 106.6735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.515 109.2135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "460d261d-b5a8-47e1-b6f2-080164c1bfc1")
+		)
+		(pin "2"
+			(uuid "097a2a9d-de4a-4c64-8c53-764ac1700d80")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 205.74 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e012d55-301e-46f2-9108-cc82d99ad2b5")
+		(property "Reference" "R33"
+			(at 208.28 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 208.28 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a48ba4-c0ef-4abd-8c19-67f51c1eae71")
+		)
+		(pin "2"
+			(uuid "aa3ce488-367d-4f5d-a9f8-b3fc3fd205ec")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5019dc09-47a9-4f6d-b649-a283f7d7b59a")
+		(property "Reference" "C56"
+			(at 213.995 139.6935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.995 142.2335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3129ea0e-b4f4-47d0-8748-13aacfd3ebfa")
+		)
+		(pin "2"
+			(uuid "0eb47bf3-228a-4583-9039-0d3322b4a5d6")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 68.58 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5317d457-7bcf-455a-a6f0-42f6d389aca8")
+		(property "Reference" "LED55"
+			(at 68.58 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 69.85 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 69.85 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 71.12 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01e5ab08-6907-420b-9b9d-66161d9ea620")
+		)
+		(pin "2"
+			(uuid "9984b322-5de4-4f9b-aea6-439a2158a4cd")
+		)
+		(pin "3"
+			(uuid "67013eae-a194-43e2-b51c-35bf5072bcc3")
+		)
+		(pin "4"
+			(uuid "229813d0-6f33-4749-b440-514688a29450")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 53.34 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58a6676e-5c87-4477-958e-c18fce5f8c15")
+		(property "Reference" "LED37"
+			(at 53.34 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 54.61 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 55.88 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dc27e93-6097-4db4-a6c7-18867311706d")
+		)
+		(pin "2"
+			(uuid "55e19dca-cd77-4e02-b6d3-9bc7f492228c")
+		)
+		(pin "3"
+			(uuid "5019fa21-bda4-4bfb-ab7f-993392c591ad")
+		)
+		(pin "4"
+			(uuid "ece367ff-5a36-4d8e-9280-b29023a28d8d")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5be4e35d-a454-4336-8443-dce012c9b375")
+		(property "Reference" "C44"
+			(at 198.755 106.6735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 198.755 109.2135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aac2221-aa59-4db3-98fd-b926983a51b5")
+		)
+		(pin "2"
+			(uuid "329fa94a-1d87-4904-b74c-bb6621d4eab3")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e196802-961a-4761-b004-4d05296be539")
+		(property "Reference" "#PWR074"
+			(at 53.34 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37711e4d-3b9e-4667-b9a9-ecc768fa40c0")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 201.93 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ea13e0e-2e4a-43bc-b2df-5bebdca650bd")
+		(property "Reference" "R32"
+			(at 201.93 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 201.93 43.815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c188c271-6003-492c-9b47-178ce62d1ad6")
+		)
+		(pin "2"
+			(uuid "7cd11cce-f32c-4121-ad01-bbe3e768c774")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a2f2e91-df0a-4905-81ac-76a7601767d8")
+		(property "Reference" "#PWR0108"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279af485-2ddd-41d0-87cd-15ffc6af5dc7")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1373a6-3d43-4929-981b-880f4273ed21")
+		(property "Reference" "C54"
+			(at 183.515 139.6935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.515 142.2335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f991fa18-a1ba-433a-87b2-c6c20b90a10e")
+		)
+		(pin "2"
+			(uuid "ab0bc2e2-cacc-4b19-8963-b885ad660444")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71b9e9ac-ae2d-4196-847a-5b5318d50fe0")
+		(property "Reference" "#PWR0110"
+			(at 186.69 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a127344-c2b2-4795-ba00-0f7c17e20b64")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 247.65 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7336e367-da11-4a42-9b57-f503d8490977")
+		(property "Reference" "C41"
+			(at 244.475 91.4335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 244.475 93.9735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04169633-4015-4c23-ae6f-7f3805c344d6")
+		)
+		(pin "2"
+			(uuid "20639c61-4e40-46d5-93ca-c7f17d8d178f")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75efd8de-38c5-4f75-b684-3fb59221db15")
+		(property "Reference" "C49"
+			(at 183.515 123.1835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.515 125.7235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ace6d3cb-c482-40a1-9669-4b5446a320ff")
+		)
+		(pin "2"
+			(uuid "e92be411-1f95-409e-b289-fe5199230e4c")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "789f8404-f55d-4094-b971-e85fe083598e")
+		(property "Reference" "LED42"
+			(at 129.54 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 130.81 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 132.08 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a40ed8ad-509e-46a9-8114-3117d90f19b9")
+		)
+		(pin "2"
+			(uuid "e50705ac-69a3-46c8-8530-42bcf0d650d0")
+		)
+		(pin "3"
+			(uuid "2e6987aa-1954-4e91-83a4-e07029c1bf8e")
+		)
+		(pin "4"
+			(uuid "594284bc-d99b-4eb7-a753-b7a541574347")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ae7ac13-3aca-45f4-b518-236389083ee4")
+		(property "Reference" "C39"
+			(at 213.995 91.4335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.995 93.9735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72c0794c-8994-468a-8094-32ec773a3460")
+		)
+		(pin "2"
+			(uuid "915500dd-2f2e-40dc-a7cc-0143ccbb23a4")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ea31115-6de3-46b6-a47b-91965c0a2ec7")
+		(property "Reference" "C33"
+			(at 213.995 76.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.995 78.7335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4966e14f-3eca-4188-9554-58daba1d59b4")
+		)
+		(pin "2"
+			(uuid "596123be-0abd-43d7-af5c-03da037d97b4")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 114.3 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f5542e1-db4e-48f3-9513-39422d877d47")
+		(property "Reference" "LED35"
+			(at 114.3 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 115.57 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 116.84 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e2496c6-1c5e-4d9f-821f-4a23a780af69")
+		)
+		(pin "2"
+			(uuid "200e63d8-9732-4dad-896c-1af81219a7da")
+		)
+		(pin "3"
+			(uuid "8659f2d1-0a7b-4da7-8aad-0d78a6550a68")
+		)
+		(pin "4"
+			(uuid "4cd8ad52-b7fb-465f-bcd0-9bd7fad99405")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89e5c694-1157-42ae-b0b8-c021e95bffcf")
+		(property "Reference" "#PWR071"
+			(at 219.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 53.1494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c9376cd-f452-48d3-87f1-04e435d1add7")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 219.71 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba10ca7-bba6-4e24-8157-badb221d9df6")
+		(property "Reference" "#PWR037"
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSW"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bed7049-b464-4663-af92-a3c30ab316c0")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95286ef5-0d74-4cf7-b082-1639b19434e7")
+		(property "Reference" "C52"
+			(at 229.235 123.1835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.235 125.7235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b30d9971-5990-43e4-ac6b-52fe2030a995")
+		)
+		(pin "2"
+			(uuid "ef95f4f1-8d23-48cb-97f5-82607576380d")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "986b263e-6058-474b-9191-c687430705c2")
+		(property "Reference" "#PWR035"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d36e9f26-934c-49b9-8b66-ce43d980f056")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 247.65 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a49e091-b97d-4a78-99db-310afbb4a944")
+		(property "Reference" "C47"
+			(at 244.475 106.6735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 244.475 109.2135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 247.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27cb798f-1732-4c98-afc2-d8f556d68ea5")
+		)
+		(pin "2"
+			(uuid "d64f4b5b-7dd1-4970-b897-1801673f2e07")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a976ad5-abef-4b7d-a270-aa3a75a4b976")
+		(property "Reference" "C40"
+			(at 229.235 91.4335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.235 93.9735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a17d92f-afa4-40db-8dd4-7f4034631308")
+		)
+		(pin "2"
+			(uuid "c481f5bf-3f27-441c-a7d8-e1d5ed34b7af")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0de24c1-bb67-4c77-af2f-0e586de4c122")
+		(property "Reference" "C34"
+			(at 229.235 76.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.235 78.7335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06ae7607-4d83-4c35-80df-d1c6daf256a3")
+		)
+		(pin "2"
+			(uuid "e1cd7ec9-60ec-4199-9a71-895523b12ae2")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a53a842d-1766-4010-b0ad-eb998048faa9")
+		(property "Reference" "C32"
+			(at 198.755 76.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 198.755 78.7335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f480bdc6-105e-453f-9614-58f357704375")
+		)
+		(pin "2"
+			(uuid "8dcfb97c-fa92-45d6-bfcc-50c7f885faba")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9fad6ef-06d4-4f80-bd4d-3576dc87a99d")
+		(property "Reference" "C38"
+			(at 198.755 91.4335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 198.755 93.9735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 201.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edfbbb6e-ce00-45a3-8e9e-2f20b5c7ba3d")
+		)
+		(pin "2"
+			(uuid "32d2f1f1-5241-4204-a697-b4546fc8399f")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 83.82 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa0b67aa-f640-410d-8cc2-6e6b48672181")
+		(property "Reference" "LED45"
+			(at 83.82 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 85.09 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 85.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 86.36 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82ad854d-0163-44de-95f9-c3170a1f317f")
+		)
+		(pin "2"
+			(uuid "6a18868b-78f9-46a3-bac1-1178f339fe42")
+		)
+		(pin "3"
+			(uuid "14a032cb-bc7c-4747-8006-035341cad777")
+		)
+		(pin "4"
+			(uuid "f7c1cd55-0cd5-4945-9ad2-1058eeecfdce")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 68.58 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab01e691-cbbd-4555-8a35-52074422b646")
+		(property "Reference" "LED32"
+			(at 68.58 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 69.85 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 71.12 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47741bc8-dd14-4721-97ee-509fe56d96e6")
+		)
+		(pin "2"
+			(uuid "4382b117-6dae-4c33-8e23-e539c8826122")
+		)
+		(pin "3"
+			(uuid "245b4099-3c0a-4e86-97f1-61ac07abbb0b")
+		)
+		(pin "4"
+			(uuid "5a59e1a3-dea4-4fa2-aca1-007df22f3182")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 53.34 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7f18382-ca91-4871-8b5e-ef303efc39a9")
+		(property "Reference" "LED43"
+			(at 53.34 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 54.61 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 55.88 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470ba3ce-9eb8-4662-95dc-a8ff29e705ea")
+		)
+		(pin "2"
+			(uuid "aec4ed05-5807-422d-b3f6-39ff3d3b7c6a")
+		)
+		(pin "3"
+			(uuid "672dc587-195e-4c3a-8632-c469887768a0")
+		)
+		(pin "4"
+			(uuid "426cefcb-0675-491f-a9d8-7789a33f6d06")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 83.82 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba0c3f0e-961d-438d-bf28-e94925f5d0ed")
+		(property "Reference" "LED33"
+			(at 83.82 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 85.09 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 85.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 86.36 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c23338d5-4ac0-435c-bd5a-41b252e3a3ea")
+		)
+		(pin "2"
+			(uuid "96f757d6-79bc-4907-a0f7-9f55afc16895")
+		)
+		(pin "3"
+			(uuid "e680aebe-0387-445b-a30d-d0e4fe8f223d")
+		)
+		(pin "4"
+			(uuid "da275f6e-be17-4660-9b1f-6197ca4849a5")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba486bb3-6607-4538-80a4-16c3d7f0486b")
+		(property "Reference" "C57"
+			(at 229.235 139.6935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.235 142.2335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46864f04-3161-4502-a739-f6fb22f23dcc")
+		)
+		(pin "2"
+			(uuid "262d75dd-75d1-442f-9e53-ebce91c5287e")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 219.71 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc6ca206-b2b9-4ac7-93dc-3db7b02464d8")
+		(property "Reference" "R34"
+			(at 217.805 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 217.805 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfa82534-fe88-43dd-a63b-e24b263a8d1d")
+		)
+		(pin "2"
+			(uuid "b5296a3e-54c1-489a-9df0-a304f23adfad")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a492db-43f7-4661-9738-969f396159e4")
+		(property "Reference" "C51"
+			(at 213.995 123.1835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.995 125.7235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 217.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 217.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d96f5b-09e4-4e64-bf68-6baf95885673")
+		)
+		(pin "2"
+			(uuid "46b165b2-f876-432a-a81c-26d99f5ea434")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf1ea386-71db-4f9b-86ec-0c58f1c45ba8")
+		(property "Reference" "#PWR0109"
+			(at 186.69 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4af22c5-573e-4951-9d75-f980e7ec8fbe")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfbb92a2-40d0-4320-999a-47fc3a00a0b7")
+		(property "Reference" "C42"
+			(at 259.715 91.4335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 259.715 93.9735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 262.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c552359-422d-4e96-ba6d-3e53a6d1a532")
+		)
+		(pin "2"
+			(uuid "6275e125-1d2a-42bf-b744-ce5e22c00e3e")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d04ab2a0-0571-43ff-8efe-2b093947b70f")
+		(property "Reference" "#PWR073"
+			(at 53.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2babe5-8509-4d9c-8d65-2a2dd8cf6e98")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 99.06 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d261726f-42be-427d-a472-8a0b33079869")
+		(property "Reference" "LED52"
+			(at 99.06 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 100.33 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 100.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 101.6 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73b13957-be40-4afa-b72a-d47c6244f294")
+		)
+		(pin "2"
+			(uuid "fad5364a-c6cd-460a-a5a3-14579bb14a21")
+		)
+		(pin "3"
+			(uuid "af7ec604-eb0a-42ca-9299-76035d268512")
+		)
+		(pin "4"
+			(uuid "92780fc8-9b9a-4de4-8737-3e243e25106d")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 83.82 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5a73c2b-a34e-4a32-9a45-40d520e47b2e")
+		(property "Reference" "LED51"
+			(at 83.82 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 85.09 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 85.09 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 86.36 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "147920e4-1254-4a22-a9a1-912fd9732d54")
+		)
+		(pin "2"
+			(uuid "49b82671-6b43-4703-9c56-35453df411f6")
+		)
+		(pin "3"
+			(uuid "822ddd40-00bb-4f1a-8129-5dada8a7188f")
+		)
+		(pin "4"
+			(uuid "7c11e522-9d39-422e-a6c7-6c87ddd4f07b")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8ae188a-f415-4afb-b711-8ed449f2e5b4")
+		(property "Reference" "C45"
+			(at 213.995 106.6735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.995 109.2135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R, 10%"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33384a79-f16a-4cde-8068-6ef4637425fd")
+		)
+		(pin "2"
+			(uuid "3dee1d4f-81af-4fcc-b0f1-ed96e6437a3d")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 53.34 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc24290d-96fe-4bfc-a298-0319f481f13a")
+		(property "Reference" "LED31"
+			(at 53.34 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 54.61 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 55.88 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2849f5b-3c61-4f82-b058-508925ca8181")
+		)
+		(pin "2"
+			(uuid "b955cca8-56e7-4a42-aee7-e214dbca5d30")
+		)
+		(pin "3"
+			(uuid "ce4b6c03-6c6c-4b7c-98d3-568cd1af17ac")
+		)
+		(pin "4"
+			(uuid "847f6d59-3ef6-4685-8fd0-fa462392b949")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df6133ef-5b35-4d96-9862-ad1754da4f1b")
+		(property "Reference" "#PWR076"
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe5ccdd4-2ad2-4356-b5eb-4fd15e5f3665")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 129.54 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2ee565f-9395-4999-a153-f3c6bfae1bcb")
+		(property "Reference" "LED36"
+			(at 129.54 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 130.81 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 130.81 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 132.08 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77cb1fbf-9738-4a03-ad99-61036324b5a8")
+		)
+		(pin "2"
+			(uuid "477ca635-362d-4b89-a1a5-6e0435996dc2")
+		)
+		(pin "3"
+			(uuid "c35976e2-a49c-44e6-ba35-3b8ca66ddf49")
+		)
+		(pin "4"
+			(uuid "11ff80dc-5dd0-482e-81a7-61fd61d5b933")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 83.82 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8023e76-f81d-47a8-ad84-0c75fee2ac4b")
+		(property "Reference" "LED56"
+			(at 83.82 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 85.09 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 85.09 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 86.36 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e05f79f-6ffd-480f-979f-8f61bf9d82d3")
+		)
+		(pin "2"
+			(uuid "01cfb750-7300-46cf-bcd5-78ec7ce3d61d")
+		)
+		(pin "3"
+			(uuid "a98c5508-4499-49ae-86db-260a5a052aee")
+		)
+		(pin "4"
+			(uuid "92a6297d-4841-4857-bc93-eed549a0fcb0")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89ec277-2674-4b02-842b-509e73ec3324")
+		(property "Reference" "#PWR072"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7cd4df-14d7-4172-a8f9-999c9fbf7cc1")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 68.58 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbb6dfd7-8357-4584-b093-a370973758bb")
+		(property "Reference" "LED38"
+			(at 68.58 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 69.85 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "kbd:YS-SK6812MINI-E"
+			(at 69.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 71.12 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42a525b8-7b8f-4408-8ce7-adaf22cfe50e")
+		)
+		(pin "2"
+			(uuid "779aea4b-c721-40e1-8bf3-f642d5e4b9e9")
+		)
+		(pin "3"
+			(uuid "e9637888-f1d8-4e27-8568-e4b71425a49e")
+		)
+		(pin "4"
+			(uuid "1679f28a-d1b7-439a-8c3d-a9f636069558")
+		)
+		(instances
+			(project "OrthusChoc"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a/27f7a2db-2a4b-4d27-948b-bc95928288d7/74fdf8ba-caae-4ebc-bccd-9c41493160be"
+					(reference "LED38")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

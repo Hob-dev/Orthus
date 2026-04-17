@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "72d3a662-850c-4dbc-ae9b-a3b9d87ea84a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 26.67)
+		(size 102.87 91.44)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27f7a2db-2a4b-4d27-948b-bc95928288d7")
+		(property "Sheetname" "Left"
+			(at 21.59 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Left.kicad_sch"
+			(at 21.59 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Orthus"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 26.67)
+		(size 102.87 91.44)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3eae0ef0-729c-4fef-a187-50c6c9848741")
+		(property "Sheetname" "Left1"
+			(at 139.7 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Left1.kicad_sch"
+			(at 139.7 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Orthus"
+				(path "/72d3a662-850c-4dbc-ae9b-a3b9d87ea84a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

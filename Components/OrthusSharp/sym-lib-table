@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "OrthusSharp-rescue")(type "Legacy")(uri "${KIPRJMOD}/Legacy/OrthusSharp-rescue.lib")(options "")(descr ""))
+)
