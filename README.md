@@ -18,9 +18,9 @@ Both halves side-by-side:
 
 ![Orthus split — both halves](Renders/OrthusTech1.jpg)
 
-Top-down view of a single half:
+Top-down view:
 
-![Orthus top-down](Renders/OrthusBW2.jpg)
+![Orthus top-down](Renders/OrthusTech2.jpg)
 
 ## Status
 
@@ -63,13 +63,14 @@ Orthus/
 | **OrthusSharp** | Sharp Memory Display breakout, derived from an open-source `sharp_memory_display` design and significantly modified. KiCad 5 originals preserved under `Components/OrthusSharp/Legacy/`. | Complete |
 | **OrthusMouseWheel** | Scroll wheel module — *not included in this repo, still under `Custom/Ergomania/OrthusMouseWheel/`.* | Unfinished |
 
-## Renders
+## Alternative Renders
 
 | | |
 |---|---|
 | ![](Renders/Orthus.jpg) | ![](Renders/Orthus1.jpg) |
 | ![](Renders/OrthusBW.jpg) | ![](Renders/OrthusBW1.jpg) |
-| ![](Renders/OrthusTech.jpg) | ![](Renders/OrthusTech2.jpg) |
+| ![](Renders/OrthusTech.jpg) | ![](Renders/OrthusBW2.jpg) |
+| ![](Renders/OrthusWIP.jpg) | ![](Renders/OrthusWIP1.jpg) |
 
 Layout studies and design exploration:
 
