@@ -1,6 +1,6 @@
 # Orthus
 
-An ergonomic split keyboard PCB with an integrated capacitive trackpad, Sharp Memory Display, and speaker. Designed around Kailh Choc low-profile switches and styled after the Nothing Technology and the Teenage Engineering OP-1.
+An ergonomic split keyboard PCB with an integrated capacitive trackpad, Sharp Memory Display, and speaker. Designed around Kailh Choc low-profile switches and styled after Nothing.
 
 ![Orthus iso render](Renders/Orthus2.jpg)
 
