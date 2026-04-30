@@ -93,4 +93,6 @@ Layout studies and design exploration:
 
 ## License
 
-See [`LICENSE`](LICENSE).
+Orthus is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+`Components/OrthusSharp/` is third-party and retains its original license — see [`Components/OrthusSharp/LICENSE`](Components/OrthusSharp/LICENSE).
